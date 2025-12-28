@@ -1,0 +1,15 @@
+EXPORTS
+	service_main
+	service_ctrl
+	ReportStatusToSCMgr
+	AddToMessageLog
+	CmdInstallService
+	CmdRemoveService
+	CmdDebugService
+	ControlHandler
+	GetLastErrorText
+	CreateMyDACL
+	ServiceStart
+	ServiceStop
+IMPORTS
+	ConvertStringSecurityDescriptorToSecurityDescriptor
